@@ -1,7 +1,23 @@
-<header class="navbar navbar-fixed-top navbar-inverse">
-  <div class="navbar-inner">
-    <div class="container">
-      <%= link_to "home", root_path, id: "logo" %>
+<header class="top-bar">
+<ul>
+  <li>
+    <div class="top-nav">
+      <ul>
+        <li><h1 id="logo">David Roberts</h1></li>
+        <li><%= link_to "home",   root_path %></li>
+        <li><%= link_to "software",    software_path %></li>
+        <li><%= link_to "music", music_path %></li>
+      </ul>
     </div>
-  </div>
+  </li>
+  <li>
+    <div class="social">
+      <ul>
+        <li><a href="http://www.twitter.com/smoip"><img src="glyphicons_322_twitter.png"></a></li>
+        <li><a href="http://www.github.com/smoip"><img src="glyphicons_341_github.png"></a></li>
+        <li><a href="mailto:drsmoip@gmail.com"><img src="glyphicons_329_e-mail.png"></a></li>
+      </ul>
+    </div>
+  </li>
+</ul>
 </header>

@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.0'
 gem 'bootstrap-sass'
 gem 'sqlite3'
+gem 'themes_on_rails'
 
 # consider whether postgres is needed instead of sqlite
 # gem 'pg'

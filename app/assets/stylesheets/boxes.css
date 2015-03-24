@@ -1,0 +1,59 @@
+.top-bar {
+  background-color: hsla(0, 0%, 77%, 1);
+  border-radius: 5px;
+  border-bottom: 1px #858585 solid;
+  width: 100%;
+}
+
+.top-bar li {
+  display: inline;
+}
+
+.top-nav {
+  display: inline;
+}
+
+.top-nav h1 {
+  display: inline;
+}
+
+.top-nav li {
+  display: inline;
+  border-right: 1px #858585 solid;
+  border-bottom: 1px #858585 solid;
+  padding: 5px 5px 5px 5px;
+  margin: 0px 0px 0px 0px;
+}
+
+.social {
+  display: inline;
+}
+
+.social li {
+  display: inline;
+  border-right: 1px #858585 solid;
+  border-bottom: 1px #858585 solid;
+  padding: 5px 5px 5px 5px;
+  margin: 0px 0px 0px 0px;
+}
+
+#twitter {
+  background-image: src(/images/glyphicons_321_twitter_t.png);
+}
+
+#twitter:hover {
+
+}
+
+#github:hover {
+
+}
+
+#email:hover {
+
+}
+
+.main-box {
+  clear: left;
+  clear: right;
+}
