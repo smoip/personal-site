@@ -1,6 +1,5 @@
 .top-bar {
-  background-color: hsla(0, 0%, 77%, 1);
-  border-radius: 5px;
+  /*background-color: hsla(0, 0%, 77%, 1);*/
   border-bottom: 1px #858585 solid;
   width: 100%;
 }
@@ -9,8 +8,18 @@
   display: inline;
 }
 
+.top-bar ul {
+  list-style-type: none;
+  display: inline;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .top-nav {
   display: inline;
+  margin-left: 10px;
 }
 
 .top-nav h1 {
@@ -26,7 +35,13 @@
 }
 
 .social {
+  padding-top: 14px;
+  float: right;
+  position: relative;
   display: inline;
+  margin-left: 20%;
+  margin-right: 10px;
+  text-align: right;
 }
 
 .social li {
