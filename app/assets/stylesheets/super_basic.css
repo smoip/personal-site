@@ -25,10 +25,6 @@ a {
   text-decoration: none;
 }
 
-a:visited {
-  color: hsl(12, 52%, 39%);
-}
-
 a:hover {
     color: hsl(40, 100%, 57%);
 }

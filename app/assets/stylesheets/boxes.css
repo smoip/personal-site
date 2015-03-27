@@ -1,7 +1,9 @@
 .top-bar {
-  /*background-color: hsla(0, 0%, 77%, 1);*/
+  /*background-color: hsl(12, 82%, 49%);*/
   border-bottom: 1px #858585 solid;
-  width: 100%;
+  width: 102%;
+  margin: -8px -8px -8px -8px;
+  padding-top: 5px;
 }
 
 .top-bar li {
@@ -30,16 +32,17 @@
   display: inline;
   border-right: 1px #858585 solid;
   border-bottom: 1px #858585 solid;
-  padding: 5px 5px 5px 5px;
+  padding: 5px 5px 4px 5px;
   margin: 0px 0px 0px 0px;
 }
 
 .social {
-  padding-top: 14px;
+  padding-top: 2px;
+  padding-right: 4px;
   float: right;
   position: relative;
   display: inline;
-  margin-left: 20%;
+  /*margin-left: 20%;*/
   margin-right: 10px;
   text-align: right;
 }
@@ -53,22 +56,41 @@
 }
 
 #twitter {
-  background-image: src(/images/glyphicons_321_twitter_t.png);
+  margin-right: 5px;
+  content: url(/assets/glyphicons_322_twitter.png);
+  transition: all .125s linear 0;
+  /*background-color: hsl(12, 82%, 49%);*/
 }
 
 #twitter:hover {
+  background-color: hsl(40, 100%, 57%);
+}
 
+#github {
+  margin-right: 5px;
+  content: url(/assets/glyphicons_341_github.png);
+  transition: all .125s linear 0;
+  /*background-color: hsl(12, 82%, 49%);*/
 }
 
 #github:hover {
+  background-color: hsl(40, 100%, 57%);
+}
 
+#email {
+  margin-right: 5px;
+  content: url(/assets/glyphicons_329_e-mail.png);
+  transition: all .125s linear 0;
+  /*background-color: hsl(12, 82%, 49%);*/
 }
 
 #email:hover {
-
+  background-color: hsl(40, 100%, 57%);
 }
 
 .main-box {
   clear: left;
   clear: right;
+  margin-left: 20%;
+  margin-right: 20%;
 }
