@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   match '/static_pages/home', to: 'static_pages#home', via: 'get'
   match '/software',    to: 'static_pages#software',    via: 'get'
   match '/music',   to: 'static_pages#music',   via: 'get'
+  match '/works', to: 'static_pages#works', via: 'get'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

@@ -1,9 +1,11 @@
 .top-bar {
   /*background-color: hsl(12, 82%, 49%);*/
   border-bottom: 1px #858585 solid;
-  width: 102%;
-  margin: -8px -8px -8px -8px;
+  width: 100%;
   padding-top: 5px;
+  position: fixed;
+  left: 0;
+  top: 0;
 }
 
 .top-bar li {
@@ -43,7 +45,7 @@
   position: relative;
   display: inline;
   /*margin-left: 20%;*/
-  margin-right: 10px;
+  /*margin-right: 10px;*/
   text-align: right;
 }
 
@@ -88,9 +90,65 @@
   background-color: hsl(40, 100%, 57%);
 }
 
+#head-float-left {
+  float: left;
+  content: url(/assets/david_face.jpg);
+  margin-right: 8px;
+}
+
+.outer-box {
+  /*background-color: hsla(0, 0%, 92%, 1);*/
+  background: linear-gradient(to right, hsla(0, 0%, 65%, 1), white, white, white, hsla(0, 0%, 65%, 1));
+  position: fixed;
+  float: left;
+  top: 50px;
+  left: 0;
+  height: 100%;
+  border-top: 1px #858585 solid;
+}
+
 .main-box {
+  border-left: 1px #858585 solid;
+  border-right: 1px #858585 solid;
+  background-color: hsla(360, 100%, 100%, 1);
+  padding-top: 3%;
+  text-align: left;
   clear: left;
   clear: right;
-  margin-left: 20%;
-  margin-right: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 100%;
+}
+
+.bottom-bar {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: hsla(360, 100%, 100%, 1);
+  border-top: 1px #858585 solid;
+  padding-top: 8px;
+  padding-bottom: 5px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer nav {
+  font-size: 0.75em;
+  text-transform: uppercase;
+}
+
+.footer ul {
+  list-style-type: none;
+  display: inline;
+}
+
+.footer li {
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px;
 }
