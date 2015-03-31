@@ -1,5 +1,4 @@
 .top-bar {
-  /*background-color: hsl(12, 82%, 49%);*/
   border-bottom: 1px #858585 solid;
   width: 100%;
   padding-top: 5px;
@@ -44,8 +43,6 @@
   float: right;
   position: relative;
   display: inline;
-  /*margin-left: 20%;*/
-  /*margin-right: 10px;*/
   text-align: right;
 }
 
@@ -61,7 +58,6 @@
   margin-right: 5px;
   content: url(/assets/glyphicons_322_twitter.png);
   transition: all .125s linear 0;
-  /*background-color: hsl(12, 82%, 49%);*/
 }
 
 #twitter:hover {
@@ -72,7 +68,6 @@
   margin-right: 5px;
   content: url(/assets/glyphicons_341_github.png);
   transition: all .125s linear 0;
-  /*background-color: hsl(12, 82%, 49%);*/
 }
 
 #github:hover {
@@ -83,7 +78,6 @@
   margin-right: 5px;
   content: url(/assets/glyphicons_329_e-mail.png);
   transition: all .125s linear 0;
-  /*background-color: hsl(12, 82%, 49%);*/
 }
 
 #email:hover {
@@ -94,11 +88,11 @@
   float: left;
   content: url(/assets/david_face.jpg);
   margin-right: 8px;
+  box-shadow: 4px 4px 8px hsla(0, 0%, 76%, 1);
 }
 
 .outer-box {
-  /*background-color: hsla(0, 0%, 92%, 1);*/
-  background: linear-gradient(to right, hsla(0, 0%, 65%, 1), white, white, white, hsla(0, 0%, 65%, 1));
+  background: linear-gradient(to right, white, hsla(0, 0%, 50%, 1), white);
   position: fixed;
   float: left;
   top: 50px;
