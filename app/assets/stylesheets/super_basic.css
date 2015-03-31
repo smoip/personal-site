@@ -29,3 +29,12 @@ a:hover {
     color: hsl(40, 100%, 57%);
 }
 
+h2 + ul {
+  list-style-type: none;
+}
+
+h2 + ul p {
+  margin-top: -15px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
