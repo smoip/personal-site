@@ -106,7 +106,7 @@
   border-left: 1px #858585 solid;
   border-right: 1px #858585 solid;
   background-color: hsla(360, 100%, 100%, 1);
-  padding-top: 3%;
+  padding-top: 2%;
   text-align: left;
   clear: left;
   clear: right;
@@ -156,4 +156,11 @@
 
 #works-list td {
   width: 50%;
+}
+
+.player-float-right {
+  float: right;
+  width: 50%;
+  margin-top: 20px;
+  padding-left: 10px;
 }
