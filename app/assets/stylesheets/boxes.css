@@ -147,3 +147,13 @@
   padding-left: 5px;
   padding-right: 5px;
 }
+
+#works-list table {
+  width: 100%;
+  left: 25px;
+  position: relative;
+}
+
+#works-list td {
+  width: 50%;
+}
