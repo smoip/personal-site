@@ -64,7 +64,7 @@
 }
 
 #twitter {
-  content: url(/assets/glyphicons_322_twitter.png);
+  /*content: url(/assets/glyphicons_322_twitter.png);*/
   transition: all .125s linear 0;
 }
 
@@ -73,7 +73,7 @@
 }
 
 #github {
-  content: url(/assets/glyphicons_341_github.png);
+  /*content: url(/assets/glyphicons_341_github.png);*/
   transition: all .125s linear 0;
 }
 
@@ -82,7 +82,7 @@
 }
 
 #email {
-  content: url(/assets/glyphicons_329_e-mail.png);
+  /*content: url(/assets/glyphicons_329_e-mail.png);*/
   transition: all .125s linear 0;
 }
 
