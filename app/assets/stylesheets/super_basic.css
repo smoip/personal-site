@@ -1,4 +1,17 @@
-@import: boxes.css;
+@media screen and (max-width: 670px) {
+
+    .social-icon {
+      top: 41px;
+    }
+
+    .header {
+      height: 72px;
+    }
+
+    .outer-box {
+      top: 76px;
+    }
+}
 
 #logo {
   font-weight: 250;
