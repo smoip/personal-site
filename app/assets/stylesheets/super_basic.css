@@ -10,14 +10,26 @@ body {
   color: #595959;
 }
 
+p {
+  margin-bottom: 5px;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: hsl(0, 0%, 21%);
   font-weight: 100;
   letter-spacing: -1px;
+  margin-top: 5px;
+  margin-bottom: 2px;
 }
 
 h1 {
   text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.3em;
+  font-weight: 300;
 }
 
 a {
@@ -36,15 +48,14 @@ h2 + ul {
 
 h2 + ul li {
   transition: all .125s linear 0;
-  margin-top: -10px;
-  margin-bottom: -5px;
+  padding-top: 5px;
   padding-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 
 h2 + ul p {
-  margin-top: -15px;
-  margin-bottom: 0px;
   margin-left: 10px;
 }
 

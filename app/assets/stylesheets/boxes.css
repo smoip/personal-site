@@ -23,7 +23,7 @@
   border-left: 1px #858585 solid;
   border-right: 1px #858585 solid;
   background-color: hsla(360, 100%, 100%, 1);
-  padding-top: 0%;
+  padding-top: 5%;
   padding-bottom: 10%;
   text-align: left;
   padding-left: 5%;
@@ -37,10 +37,12 @@
   width: 100%;
   left: 25px;
   position: relative;
+  vertical-align: middle;
 }
 
 #works-list td {
   width: 50%;
+  vertical-align: middle;
 }
 
 .player-float-right {
