@@ -4,12 +4,16 @@
       top: 41px;
     }
 
+    .social {
+      z-index: 500;
+    }
+
     .header {
       height: 72px;
     }
 
     .outer-box {
-      top: 76px;
+      top: 74px;
     }
 }
 
@@ -24,15 +28,17 @@ body {
 }
 
 p {
+  margin-top: 5px;
   margin-bottom: 5px;
+  padding-bottom: 5px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: hsl(0, 0%, 21%);
-  font-weight: 100;
-  letter-spacing: -1px;
-  margin-top: 5px;
-  margin-bottom: 2px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 7px;
+  margin-bottom: 4px;
 }
 
 h1 {
@@ -53,6 +59,10 @@ a {
 
 a:hover {
     color: hsl(40, 100%, 57%);
+}
+
+em {
+  font-weight: 700;
 }
 
 h2 + ul {

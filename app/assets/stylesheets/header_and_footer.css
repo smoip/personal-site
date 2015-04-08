@@ -9,7 +9,7 @@
   z-index: 200;
   padding: 0px;
   margin: 0px 0px 0px 0px;
-  height: 36px;
+  height: 37px;
   line-height: 32px;
 }
 
@@ -35,8 +35,8 @@
   top: 4px;
   left: 0;
   display: inline;
-  /*margin-left: 3px;*/
   vertical-align: middle;
+  z-index: 400;
 }
 
 #logo {
@@ -69,7 +69,6 @@
   position: fixed;
   display: inline;
   text-align: right;
-
 
 }
 
@@ -127,7 +126,7 @@
   border-top: 1px #858585 solid;
   padding-top: 8px;
   padding-bottom: 5px;
-  z-index: 1;
+  z-index: 200;
 }
 
 .footer {
