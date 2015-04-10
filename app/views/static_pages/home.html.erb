@@ -1,12 +1,15 @@
 <% provide(:title, 'Home') %>
   <h1>About Me</h1>
   <%= image_tag("david_face.jpg", alt: "David Roberts", class: "img-float-left") %>
-  <p>I'm a composer, software engineer, brewer, and sound designer living in Chicago.
-    I love learning what makes things tick and have a passion for building
-    complicated systems - be it musically, etc, etc, etc.</p>
-  <p>I write music for a variety of media but am partial to electronics.
-    I am also co-founder and director of <a href="http://www.secondcycleensemble.com">Second/Cycle</a>,
-     a Chicago based new music ensemble.</p>
-  <p>More text more text more text.</p>
-  <p>Cool stuff about me.  I'll put my <a href="/resume">resume</a> on here at some point.</p>
-  <p>Find me in app/views/static_pages/home.html.erb</p>
+  <p>I’m a composer, software engineer, brewer, and sound designer living in Chicago.<p>
+  <p>I believe strongly that the best ideas start from a simple, functional base and well-considered
+  details, and I strive to bring this perspective to all of my work, be it a string quartet, an
+  algorithm for destroying sound, or a crisp session IPA.</p>
+
+  <p>
+    I have my fingers in many pots and can be found
+    <%= link_to "putting on concerts", "http://www.secondcycleensemble.com" %>,
+    <%= link_to "ranting about art music", "https://musicalinvective.wordpress.com/" %>,
+    <%= link_to "teaching people to make beer", "http://www.brewcamp.com" %>, or running on the lakefront.
+  </p>
+  <p>Boring professional credentials can be found on my <a href="/resume">resume</a>.</p>
