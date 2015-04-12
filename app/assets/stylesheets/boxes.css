@@ -2,7 +2,7 @@
   float: left;
   margin-right: 12px;
   margin-bottom: 10px;
-  border: 3px white solid;
+  border: 5px white solid;
   border-radius: 10px 10px 10px 10px;
   box-shadow: 4px 4px 8px hsla(0, 0%, 76%, 1);
 }
@@ -50,10 +50,10 @@
 .player-float-right {
   float: right;
   width: 50%;
-  margin-top: 20px;
+  /*margin-top: 20px;*/
   padding-left: 5px;
   padding-right: 5px;
-  border: 3px white solid;
+  border: 5px white solid;
   border-radius: 10px 10px 10px 10px;
   box-shadow: 4px 4px 8px hsla(0, 0%, 76%, 1);
 }
