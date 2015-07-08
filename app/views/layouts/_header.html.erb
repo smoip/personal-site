@@ -1,23 +1,28 @@
-<header class="header">
-<ul>
-  <li>
-    <div class="top-nav">
-      <ul>
-        <li><h1 id="logo">David Roberts</h1></li>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">David Roberts</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
         <li><%= link_to "home",   root_path %></li>
         <li><%= link_to "software",    software_path %></li>
         <li><%= link_to "music", music_path %></li>
       </ul>
-    </div>
-  </li>
-  <li>
-    <div class="social">
-      <ul>
-        <li>.<%= link_to(image_tag("glyphicons_322_twitter.png", alt: "Twitter", class: "social-icon"), "http://www.twitter.com/smoip") %></li>
-        <li>.<%= link_to(image_tag("glyphicons_341_github.png", alt: "Github", class: "social-icon"), "http://www.github.com/smoip") %></li>
-        <li>.<%= link_to(image_tag("glyphicons_329_e-mail.png", alt: "E-mail", class: "social-icon"), "mailto:drsmoip@gmail.com") %></li>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "Twitter", "http://www.twitter.com/smoip" %></li>
+        <li><%= link_to "Github", "http://www.github.com/smoip" %></li>
+        <li><%= link_to "E-mail", "mailto:drsmoip@gmail.com" %></li>
       </ul>
-    </div>
-  </li>
-</ul>
-</header>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>

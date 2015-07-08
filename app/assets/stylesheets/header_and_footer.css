@@ -1,120 +1,12 @@
 
-.header {
-  background-color: white;
-  border-bottom: 1px #858585 solid;
-  width: 100%;
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 200;
-  padding: 0px;
-  margin: 0px 0px 0px 0px;
-  height: 37px;
-  line-height: 32px;
-}
-
-.header li {
-  text-indent: 0px;
-  display: inline;
-  vertical-align: middle;
-}
-
-.header ul {
-  left: 0;
-  list-style-type: none;
-  display: inline;
-  margin-left: 0px;
-  margin-right: auto;
-  padding-left: auto;
-  padding-right: 0px;
-  vertical-align: middle;
-}
-
-.top-nav {
-  position: fixed;
-  top: 4px;
-  left: 0;
-  display: inline;
-  vertical-align: middle;
-  z-index: 400;
-}
-
-#logo {
-  padding-top: 1px;
-  font-size: 1.1em;
-  position: relative;
-  display: inherit;
-  vertical-align: middle;
-  text-indent: 0;
-  letter-spacing: 3px;
-}
-
-.top-nav li {
-  padding-top: 1px;
-  display: inherit;
-  border-right: 1px #858585 solid;
-  padding: 4px 10px 4px 6px;
-  vertical-align: middle;
-  margin: 0px;
+.navbar-default {
+  font-weight: 200;
   text-transform: uppercase;
-  font-size: 1.2em;
-  line-height: auto;
 }
 
-.social {
-  right: 10px;
-  top: 0;
-  padding-right: 8px;
-  width: 100%;
-  position: fixed;
-  display: inline;
-  text-align: right;
-
-}
-
-.social li {
-  display: inline;
-  font-size: 1.5em;
-  padding-right: 25px;
-  color: hsla(360, 100%, 100%, 0);
-}
-
-.social-icon {
-  position: fixed;
-  top: 5px;
-  border-radius: 20px 20px 20px 20px;
-  background-color: #bfbfbf;
-  border: 2px white solid;
-  transition: background-color .125s linear 0;
-}
-
-.social-icon:hover {
-  background-color: hsl(12, 82%, 49%);
-}
-
-#twitter {
-  transition: all .125s linear 0;
-}
-
-#twitter:hover {
-  background-color: hsl(40, 100%, 57%);
-}
-
-#github {
-  transition: all .125s linear 0;
-}
-
-#github:hover {
-  background-color: hsl(40, 100%, 57%);
-}
-
-#email {
-  /*content: url(/assets/glyphicons_329_e-mail.png);*/
-  transition: all .125s linear 0;
-}
-
-#email:hover {
-  background-color: hsl(40, 100%, 57%);
+.navbar-header {
+  font-size: 2em;
+  letter-spacing: 3px;
 }
 
 .footer {
@@ -147,4 +39,17 @@
   display: inline;
   padding-left: 5px;
   padding-right: 5px;
+}
+
+.footer li a {
+  transition: all .125s linear 0;
+  color: hsl(12, 82%, 49%);
+  text-decoration: none;
+}
+
+.navbar-fixed-bottom {
+  display: inline-block;
+  float: none;
+  text-align: center;
+  /* this is only aligning when collapsed */
 }
