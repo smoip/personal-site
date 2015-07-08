@@ -4,6 +4,10 @@
   text-transform: uppercase;
 }
 
+.navbar .navbar-default {
+  background-color: hsla(360, 100%, 100%, 1);
+}
+
 .navbar-header {
   font-size: 2em;
   letter-spacing: 3px;
@@ -51,5 +55,8 @@
   display: inline-block;
   float: none;
   text-align: center;
-  /* this is only aligning when collapsed */
 }
+
+/*.navbar .navbar-collapse {
+  text-align: center;
+}*/
