@@ -68,6 +68,8 @@ em {
 
 h2 + ul {
   list-style-type: none;
+  margin-left: 5px;
+  width: 90%;
 }
 
 h2 + ul li {
@@ -76,8 +78,10 @@ h2 + ul li {
   padding-bottom: 5px;
   margin-top: 5px;
   margin-bottom: 10px;
+  margin-right: 4px;
+  margin-left: 4px;
+  padding-left: 4px;
   border: 3px white solid;
-  border-radius: 10px 10px 10px 10px;
 }
 
 
@@ -86,9 +90,6 @@ h2 + ul p {
 }
 
 h2 + ul li:hover {
-  box-shadow: 4px 4px 8px hsla(0, 0%, 86%, 1);
-  border: 5px white solid;
-  border-radius: 10px 10px 10px 10px;
-  box-shadow: 4px 4px 8px hsla(0, 0%, 76%, 1)
+  background-color: hsla(0, 0%, 90%, 1);
 }
 
