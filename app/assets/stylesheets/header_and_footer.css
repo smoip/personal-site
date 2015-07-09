@@ -2,6 +2,7 @@
 .navbar-default {
   font-weight: 200;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .navbar .navbar-default {
@@ -10,7 +11,7 @@
 
 .navbar-header {
   font-size: 2em;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
 }
 
 .footer {
@@ -21,16 +22,12 @@
   background-color: hsla(360, 100%, 100%, 1);
   border-top: 1px #858585 solid;
   padding-top: 8px;
-  padding-bottom: 5px;
-  z-index: 200;
-}
-
-.footer {
+  padding-bottom: 8px;
+  z-index: 800;
   text-align: center;
 }
 
 .footer nav {
-  font-size: 0.75em;
   text-transform: uppercase;
 }
 
@@ -43,20 +40,7 @@
   display: inline;
   padding-left: 5px;
   padding-right: 5px;
+  font-size: 85%;
+  font-weight: 200;
+  letter-spacing: 2px;
 }
-
-.footer li a {
-  transition: all .125s linear 0;
-  color: hsl(12, 82%, 49%);
-  text-decoration: none;
-}
-
-.navbar-fixed-bottom {
-  display: inline-block;
-  float: none;
-  text-align: center;
-}
-
-/*.navbar .navbar-collapse {
-  text-align: center;
-}*/
