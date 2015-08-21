@@ -5,6 +5,8 @@ Rails.application.routes.draw do
 
   get 'static_pages/music'
 
+  get 'resume/download'
+
   root 'static_pages#home'
   match '/static_pages/home', to: 'static_pages#home', via: 'get'
   match '/software',    to: 'static_pages#software',    via: 'get'
