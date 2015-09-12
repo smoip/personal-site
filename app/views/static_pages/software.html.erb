@@ -1,41 +1,80 @@
 <% provide(:title, 'Software') %>
 <h1>Software</h1>
-<p>Although my formal training is in music, programming has always been a part of my work, and for the last
-year I have been assembling the tools to pursue software professionally.</p>
-<p>My home language is Ruby, which I love for its simplicity and elegance, but I'm a quick study and never
-pass up an opportunity to learn another useful tool.  I'm comfortable working in pure Ruby or Rails, I use Git for
-version control, and I test with rspec.  I prefer backend to frontend design, but I'm competent working with bootstrap and SASS as well as custom CSS.  I'm comfortable
-working with both SQLite and PostgreSQL.</p>
-<p>I enjoy writing code that matches and enhances my other passions: music, sound design, and brewing.</p>
-<p>In addition to training me to think creatively, my background in the arts has afforded me some unique
-experience. In my capacity as a composer, I have worked extensively
-with <%= link_to "Kyma", "http://kyma.symbolicsound.com/" %>,
-a sound computation engine that runs on a Small Talk-derived language, and the visual language
-<%= link_to "Max/MSP/Jitter", "http://cycling74.com/" %>.
-Working with both to create software for my own performances has given me the unique perspective of being simultaneously designer and end user.</p>
-<p>I love solving problems and never tire of tinkering.  Here are a few of my recent projects.</p>
+
+<p>
+  I'm a self-taught developer. I work mostly in Rails, but I prefer pure Ruby -
+  I'm wary of too much scaffolding and black-box functionality,
+  and I like to know what's under the hood.
+</p>
+<p>
+  Over a year of <a href="http://www.github.com/smoip">consistent, iterative work</a>
+  on my own projects demonstrates my commitment, dedication, and ability to learn.
+</p>
+<p>
+  I love Ruby for its simplicity and elegance, but I'm a quick study and never
+  pass up an opportunity to learn another useful tool.  I use Git for
+  version control, and I test with rspec.
+</p>
+<p>
+  I prefer backend to frontend design, but
+  I'm competent working with bootstrap and SASS as well as custom CSS.
+  I'm comfortable working with both SQLite and PostgreSQL, though I wouldn't claim
+  to be an expert in the latter.
+</p>
+<p>
+  I write code that matches and enhances my other passions: music, sound design, and brewing, and
+  I consider my experience working with a broad range of people and ideas outside of
+  the tech industry to be an advantage. I'm very comfortable working in a collaborative environment,
+  and I'm always up to try a new approach.
+</p>
+<p>
+  In my capacity as a composer, I have worked extensively
+  with <%= link_to "Kyma", "http://kyma.symbolicsound.com/" %>,
+  a sound computation engine that runs on a Small Talk-derived language, and the visual language
+  <%= link_to "Max/MSP/Jitter", "http://cycling74.com/" %>.
+  Working with both to create software for my own performances has given me the unique perspective of being
+  simultaneously designer and end user.
+</p>
+<p>
+  I love solving problems and never tire of tinkering.
+  Here are a few of my recent and ongoing projects.
+</p>
 <h2>Selected Projects</h2>
 <ul>
   <li>
     <h3><a href="http://www.wamibrew.com">Wamibrew</a></h3>
-    <p>Wamibrew (<em>W</em>hat <em>Am</em> <em>I</em> <em>Brew</em>ing?) is a Rails-based algorithmic beer recipe generator for homebrewers.
-      It semi-randomly assembles a brewable recipe (based on some general rules and probabilities)
-      and then attempts to heuristically determine the closest recognized style of the generated recipe.  Every recipe guaranteed to make booze!
+    <p>
+      Wamibrew (<em>W</em>hat <em>Am</em> <em>I</em> <em>Brew</em>ing?) is a Rails-based algorithmic beer recipe generator for homebrewers.
+      It randomly generates a real, brew-able all-grain beer recipe (based on some general rules and probabilities)
+      and then attempts to heuristically determine the closest recognized style of the generated recipe based
+      calculated attributes.  Every recipe guaranteed to make booze!
+      <%= link_to "(github)", "http://github.com/smoip/wamibrew/" %>
     </p>
   </li>
   <li>
-    <h3><a href="http://github.com/smoip/chord_wrangler">Chord Wrangler (in progress)</a></h3>
+    <h3>Chord Wrangler</h3>
     <p>
-      A tool for computer assisted composition.  It accepts an input chord (or generates a random one)
+      (In progress) A Ruby tool for computer assisted composition.  It accepts an input chord (or generates a random one)
       and then runs it through a series of successive contrapuntal transformations.  The resulting chordal
       structure can then be the basis of a piece of written-out music.
+      <%= link_to "(github)", "http://github.com/smoip/chord_wrangler" %>
     </p>
   </li>
   <li>
-    <h3>Maker Search (in progress)</h3>
+    <h3>Maker Search</h3>
     <p>
-      A searchable archive of instrument makers and their histories aimed at young classical music professionals
-      purchasing their first fine stringed instrument.
+      (In progress) Rails-based searchable archive of instrument makers and their histories aimed at young classical
+      music professionals purchasing their first fine stringed instrument.
+    </p>
+  </li>
+  <li>
+    <h3>Adventure</h3>
+    <p>
+      My homage to the text-based adventure game genre of yore, and my first real project in ruby.
+      Included here mostly as a reference point for how much I have learned since then, but it might
+      also be fun if you don't mind a clunky interface and losing repeatedly.  Be sure to download
+      the stable release.
+      <%= link_to "(github)", "http://github.com/smoip/adventure" %>
     </p>
   </li>
 </ul>
